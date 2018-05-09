@@ -25,25 +25,21 @@ You can go see the JSON file directly to understand how the documentation is org
 [env.javascript.json](https://github.com/log4b0at/jsreferencer-env-js/blob/master/env.javascript.json)
 No method is present in the package, only the documentation as a standard object.
 #### Some properties you can use
-The name of the environment.
+
 ```JavaScript
-    documentation.name = "JavaScript"
-```
-The version of environment.
-```JavaScript
-    documentation.version = "es6"
-```
-Dependencies of the environment, Rest assured, the native javascript environment has no dependencies.
-```JavaScript
+    documentation.name = "JavaScript" // The name of the environment.
+    documentation.version = "es6" // The version of environment.
     documentation.dependencies = []
+    /* Dependencies of the environment, Rest assured, the native javascript environment has no dependencies. */
 ```
 This object is the **one on which you can read the documentation**. It contains a multitude of sub-objects with the type, a description, its sub-properties etc.
 ```JavaScript
     documentation.globals = { ... }
 ```
-#### Other properties specific to the JSReferencer library: (You can ignore them)
+#### Others specific to the JSReferencer library: (You can ignore them)
 ```JavaScript
-    documentation.packages
+    documentation.type = "Environment";
+    documentation.packages = [];
 ```
 ## You want help ?
 
