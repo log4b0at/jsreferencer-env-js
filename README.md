@@ -5,7 +5,7 @@
 This is a JSON file storing a documentation of each property available in JavaScript, it is basically designed for the JSReferencer library (currently under development), but you can use it for other purposes.
 Everyone is free to participate in the improvement of this open-source documentation by following the participation guide below.
 
-Thank you !
+## Getting Started
 
 You can install **jsreferencer-env-js** via **npm** or **yarn**.
 ```bash
@@ -41,7 +41,7 @@ This object is the **one on which you can read the documentation**. It contains 
     documentation.type = "Environment";
     documentation.packages = [];
 ```
-## You want help ?
+## You want help ? :frog:
 
 Just fill in the JSON file on Github, you can add descriptions, add the types of properties, you can add new objects if they are not already referencing, your help is precious but be careful to respect the file structure . Thanks you :)
 ### Understand the file structure
