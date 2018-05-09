@@ -5,6 +5,7 @@
 This is a JSON file storing a documentation of each property available in JavaScript, it is basically designed for the JSReferencer library (currently under development), but you can use it for other purposes.
 Everyone is free to participate in the improvement of this open-source documentation by following the participation guide below.
 Thank you !
+
 You can install **jsreferencer-env-js** via **npm** or **yarn**.
 ```bash
     npm install jsreferencer-env-js --save
