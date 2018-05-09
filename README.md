@@ -5,11 +5,11 @@ This is a JSON file storing a documentation of each property available in JavaSc
 Everyone is free to participate in the improvement of this open-source documentation by following the participation guide below.
 
 You can install jsreferencer-env-js via Npm or Yarn.
-```shell
+```bash
     npm install jsreferencer-env-js --save
 ```
 Or:
-```shell
+```bash
     yarn add jsreferencer-env-js
 ```
 ## How it's work?
