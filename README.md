@@ -49,7 +49,7 @@ First there is the header, it is the one that is described at the top of this Re
 Finally, the body of the file is stored in the `globals` property. Which defines the set of objects, classes and methods accessible from the "window" object.
 Each object to a type, which can be `"class"`, `"interface"`, or the name of classes of which it is instantiated for example `"HTMLElement"`.
 
-#### Define a class.
+#### Define a class
 
 The type `"class"` indicates that the object you see can be instantiated, that is, its name can be used as a type.
 
@@ -68,7 +68,7 @@ This class is a child of `EventTarget`, its parent class.
 You have the right to fill `"extends"` with `"EventTarget"` because this class is defined a little further in the file.
 
 The value of `"properties"` is an object containing all the properties of the **prototype**. Beside the value of `"staticProperties"`is similar but these properties will be affiliated to the **constructor**.
-#### Define an object instance.
+#### Define an object instance
 
 Imagine that in JavaScript there is a `WebSocket` object instance under the name `"myPersonnalWebSocketForMe"`. So to declare it you will go to the JSON file, in documentation.globals and add this code:
 ```JavaScript
@@ -88,7 +88,7 @@ For an object instance, only the following 2 properties are needed: `"type"`, `"
 
 For example the `document` object instance has no personal property, in fact it retrieves the methods given to its type: `HTMLDocument` and `Document`
 
-### Define a function
+#### Define a function
 A function is more specific, it takes several additional parameters.
 `"returnType"` : declares the type of return, it can be empty if the function is not deterministic in its typing.
 `"arguments"`: a list of properties defining the arguments of the function.
