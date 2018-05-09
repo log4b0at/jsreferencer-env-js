@@ -11,7 +11,6 @@ You can install **jsreferencer-env-js** via **npm** or **yarn**.
 ```bash
     npm install jsreferencer-env-js --save
 ```
-Or:
 ```bash
     yarn add jsreferencer-env-js
 ```
