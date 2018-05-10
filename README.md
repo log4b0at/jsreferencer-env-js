@@ -1,5 +1,5 @@
 # jsreferencer-env-js
-<img alt="Book illustration" src="./books-stack-of-three.svg" align="left"/>
+<img alt="Book illustration" src="./ignore/books-stack-of-three.svg" align="left"/>
 
 *JSReferencer-Env-JS* is a **documentation dataset** for Javascript.
 This is a JSON file storing a documentation of each property available in JavaScript, it is basically designed for the JSReferencer library (currently under development), but **you can use it for other purposes**.
