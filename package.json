@@ -26,5 +26,6 @@
   "bugs": {
     "url": "https://github.com/log4b0at/jsreferencer-env-js/issues"
   },
-  "homepage": "https://github.com/log4b0at/jsreferencer-env-js#readme"
+  "homepage": "https://github.com/log4b0at/jsreferencer-env-js#readme",
+  "readme": "See Readme.md on github: https://github.com/log4b0at/jsreferencer-env-js#readme"
 }
