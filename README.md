@@ -23,7 +23,7 @@ It can be imported by NodeJS in this way:
 You can go see the JSON file directly to understand how the documentation is organized.
 [env.javascript.json](https://github.com/log4b0at/jsreferencer-env-js/blob/master/env.javascript.json)
 
-You have a small search interface, composed of methods:
+#### Useful methods
 ```JavaScript
 documentation.find(['Object', 'hasOwnProperty'])
 documentation.findByPattern('Object.hasOwnProperty')
