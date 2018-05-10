@@ -22,7 +22,18 @@ It can be imported by NodeJS in this way:
 ```
 You can go see the JSON file directly to understand how the documentation is organized.
 [env.javascript.json](https://github.com/log4b0at/jsreferencer-env-js/blob/master/env.javascript.json)
-No method is present in the package, only the documentation as a standard object.
+
+You have a small search interface, composed of methods:
+```JavaScript
+documentation.find (['Object', 'hasOwnProperty'])
+documentation.findByPattern ( 'Object.hasOwnProperty')
+```
+These methods allow to do the same thing, it returns the sub-properties `"hasOwnProperty"` of its parent `"Object"`
+```JavaScript
+documentation.search(documentation, 'fi'); // Returns a list of all evaluable properties in the documentation.globals having "fi" in their name.
+documentation.searsh(documentation, { type : 'Function', returnType: 'Number' }); // Return a list of all functions in documentation.globals
+```
+
 #### Some properties you can use
 
 ```JavaScript
