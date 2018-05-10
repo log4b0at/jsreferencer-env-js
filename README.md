@@ -9,10 +9,10 @@ Everyone is free to participate in the improvement of this open-source documenta
 
 You can install **jsreferencer-env-js** via **npm** or **yarn**.
 ```bash
-    npm install jsreferencer-env-js --save
+npm install jsreferencer-env-js --save
 ```
 ```bash
-    yarn add jsreferencer-env-js
+yarn add jsreferencer-env-js
 ```
 ## How it's work?
 All the documentation is in a single file in JSON format (env.javascript.json).
@@ -57,6 +57,9 @@ This object is the **one on which you can read the documentation**. It contains 
 ## You want help ? :frog:
 
 Just fill in the JSON file with Git, you can add descriptions, add the types of properties, you can add new objects if they are not already referencing, your help is precious but be careful to respect the file structure. Thanks you :)
+```bash
+git clone https://github.com/log4b0at/jsreferencer-env-js
+```
 ### Understand the file structure
 First there is the header, it is the one that is described at the top of this Readme.md, it is composed of several properties, `name`, `version`, `identifier`, `dependencies`.
 
