@@ -25,14 +25,17 @@ You can go see the JSON file directly to understand how the documentation is org
 
 You have a small search interface, composed of methods:
 ```JavaScript
-documentation.find (['Object', 'hasOwnProperty'])
-documentation.findByPattern ( 'Object.hasOwnProperty')
+documentation.find(['Object', 'hasOwnProperty'])
+documentation.findByPattern('Object.hasOwnProperty')
 ```
 These methods allow to do the same thing, it returns the sub-properties `"hasOwnProperty"` of its parent `"Object"`
 ```JavaScript
 documentation.search(documentation, 'fi'); // Returns a list of all evaluable properties in the documentation.globals having "fi" in their name.
 documentation.searsh(documentation, { type : 'Function', returnType: 'Number' }); // Return a list of all functions in documentation.globals
 ```
+The search function will provide you with an object list corresponding to the characters you give it, if it's a string then it will look in the names that most closely match the input string.
+
+The first parameter is where to look, if you specify `documentation` it will look in `documentation.globals`, if you specify an object obtained with the find method, it will look in `staticProperties` and `properties`.
 
 #### Some properties you can use
 
