@@ -21,7 +21,7 @@ It can be imported by NodeJS in this way:
     const documentation = require('jsreferencer-env-js');
 ```
 You can go see the JSON file directly to understand how the documentation is organized.
-[env.javascript.json](https://github.com/log4b0at/jsreferencer-env-js/blob/master/env.javascript.json)
+[env.javascript.json](https://github.com/log4b0at/jsreferencer-env-js/blob/master/src/env.javascript.json)
 
 #### Useful methods
 ```JavaScript
@@ -56,7 +56,7 @@ This object is the **one on which you can read the documentation**. It contains 
 ```
 ## You want help ? :frog:
 
-Just fill in the JSON file on Github, you can add descriptions, add the types of properties, you can add new objects if they are not already referencing, your help is precious but be careful to respect the file structure . Thanks you :)
+Just fill in the JSON file with Git, you can add descriptions, add the types of properties, you can add new objects if they are not already referencing, your help is precious but be careful to respect the file structure. Thanks you :)
 ### Understand the file structure
 First there is the header, it is the one that is described at the top of this Readme.md, it is composed of several properties, `name`, `version`, `identifier`, `dependencies`.
 
