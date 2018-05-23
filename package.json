@@ -2,7 +2,7 @@
   "name": "jsreferencer-env-js",
   "version": "1.0.2",
   "description": "A documentation dataset for Javascript.",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
